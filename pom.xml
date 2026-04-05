@@ -5,6 +5,11 @@
     <groupId>com.goofysatoshi</groupId>
     <artifactId>CloudNative-Edition</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>CloudNative-Edition</name>
     <description>CloudNative-Edition</description>
+    <modules>
+        <module>gateway-server</module>
+        <module>user-center</module>
+    </modules>
 </project>
